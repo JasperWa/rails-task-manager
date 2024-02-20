@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+.task-container {
+  width: 30%;
+  margin: 20px auto;
+
+  a {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(67, 66, 66);
+  }
+
+  p {
+    margin-left: 5px;
+    margin-bottom: 0;
+  }
+}
+
+#add-task {
+  display: flex;
+  align-items: center;
+  color: darkslateblue;
+  font-style: italic;
+}
